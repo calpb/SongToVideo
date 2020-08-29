@@ -27,7 +27,7 @@ total_songs = sum(1 for _ in (f for f in os.listdir(src) if f.endswith('.' + fil
 
 for pos, song in enumerate(filenames):
     song_path = os.path.join(src, song)
-    video_output_path = os.path.join(output, os.path.splitext(song)[0] + '_converted.mp4')
+    video_output_path = os.path.join(output, os.path.splitext(song)[0] + '.mp4')
 
     if art is None:     # No specified album art, we are going to extract our current song's art instead
         cover_path = os.path.join(src,'extracted_cover.png')
