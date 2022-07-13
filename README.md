@@ -5,7 +5,7 @@ Built with ffmpeg version git-2020-03-09-608b8a8 and Python 3.8.5
 
 ## Install
 0.  Make sure that both Python and ffmpeg are in your system's PATH 
-1.  Clone this repo with `git clone https://github.com/Cal-B/SongToVideo.git`
+1.  Clone this repo with `git clone https://github.com/calpb/SongToVideo.git`
 2.  `cd` into the script directory
 3.  Execute the script using the valid arguments, such as `python songtovideo.py -i path/to/songs -f mp3`
 
